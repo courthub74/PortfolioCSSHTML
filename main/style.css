@@ -63,6 +63,9 @@
   justify-content: space-between;
   padding: 2vw 7vw;
 }
+* body .container .skills .skillcontainer .skillslist {
+  margin-top: 1.6vw;
+}
 * body .container .skills .skillcontainer .skillslist h2 {
   font-size: 2vw;
   margin-left: 3.2vw;
