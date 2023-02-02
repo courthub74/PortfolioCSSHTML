@@ -1,0 +1,198 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@900&display=swap');
+
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+
+// UNIVERSAL DIRECTOR
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    body {
+        // margin 0
+        // margin: 0;
+        .container {
+            // margin: auto 0;
+            .header {
+                // First Block
+                background-color: $mainblue;
+                color: $skillswhite;
+                padding: 3vw;
+                .content {
+                    // set width and margin here
+                    width: 95%;
+                    margin: auto;
+                }
+                .pagetop {
+                    // THIS ALL MAY NEED TO BE GRID
+                    display: flex;
+                    justify-content: space-between;
+                    // background-color: antiquewhite;
+                    .logo {
+                        img {
+                            // resize the logo
+                            width: 15vw;
+                            height: 15vw;
+                        }
+                    }
+                    nav {
+                        // set up the navbar appearence
+                        // background-color: antiquewhite;
+                        ul {
+                            li {
+                                display: inline;
+                                padding: 2vw;
+                               a {
+                                font-weight: 600;
+                                font-size: 1.5vw;
+                                text-decoration: none;
+                                color: $skillswhite;
+                               }
+                               #portfolio {
+                                color: $mainblue;
+                                background-color: $skillswhite;
+                                padding: .3vw;
+                                border-radius: 5px;
+                            }
+                            }
+                        }
+                    }
+                }
+
+                .pagebottom {
+                    display: flex;
+                    justify-content: space-between;
+                    // background-color: aquamarine;
+                    .headshot {
+                        margin: 0 10vw 0 0;
+                        img {
+                            border-radius: 50%;
+                            width: 28vw;
+                            height: 28vw;
+                        }
+                    }
+                }
+            }
+            // SKILLS SECTION
+            .skills {
+                // 2nd Block
+                background-color: $skillswhite;
+                color: black;
+                padding-bottom: 10vw;
+                h1 {
+                    // background-color: rebeccapurple;
+                    text-align: right;
+                    padding-right: 5vw;
+                    font-size: 5vw;
+                }
+                .skillcontainer {
+                    // background-color: lightpink;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2vw 7vw;
+                    .skillslist {
+                        // background-color: lightblue;
+                        h2 {
+                            // text-align: center;
+                            font-size: 2vw;
+                            margin-left: 3.2vw;
+                        }
+                        ul {
+                            li {
+                                text-align: left;
+                                list-style: none;
+                                padding: 1vw;
+                                font-size: 1.5vw;
+                            }
+                        }
+                    }
+                    .vl {
+                        border: 1px solid black;
+                        height: 500px;
+                    }
+                    .skillicons {
+                        // background-color: lightgreen;
+                        margin-top: 2vw;
+                        margin-right: 1vw;
+                        width: 40%;
+                        .front {
+                            p {
+                                font-size: 1.5vw;
+                            }
+                            .icons {
+                                #html {
+                                    width: 4vw;
+                                }
+                                #css {
+                                    width: 4.04vw;
+                                }
+                                #js {
+                                    width: 3.9vw;
+                                    height: 3.7vw;
+                                    // background-color: pink;
+                                    // margin-top: 1vw;
+                                    padding: 0 0 0 .3vw;
+                                }
+                                #reactjs {
+                                    width: 4vw;
+                                    padding: 0 0 0 .3vw;
+                                }
+                                #sass {
+                                    width: 4vw;
+                                    padding: 0 0 0 .3vw;
+                                }
+                            }
+                        }
+                        .back {
+                            p {
+                                font-size: 1.5vw;
+                            }
+                            .icons {
+                                #python {
+                                    width: 4.3vw;
+                                    // background-color: pink;
+                                }
+                                #django {
+                                    width: 3.3vw;
+                                    padding: 0 .1vw .4vw .1vw;
+                                }
+                                #nodejs {
+                                    padding: 0 0 0 .1vw;
+                                    // background-color: aqua;
+                                }
+                                #mongodb {
+                                    // background-color: aqua;
+                                    // padding: 0 1vw 0 0;
+                                }
+                                #postgresql {
+                                    width: 4vw;
+                                    padding: 0 0 0 0;
+                                }
+                                #firebase {
+                                    padding-left: .5vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .about {
+                // 3rd Block
+            }
+            .portfolio {
+                // 4th Block
+            }
+            .blog {
+                // 5th Block
+            }
+            .experience {
+                // 6th Block
+            }
+            .contact {
+                // Last Block
+            }
+        }
+    }
+}
