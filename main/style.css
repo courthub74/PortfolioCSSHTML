@@ -126,4 +126,25 @@
 }
 * body .container .skills .skillcontainer .skillicons .back .icons #firebase {
   padding-left: 0.5vw;
+}
+* body .container .about {
+  background-color: #0E4946;
+  color: #FFFFFF;
+  height: 50vw;
+}
+* body .container .about h1 {
+  font-size: 5vw;
+  margin: 0 0 0 3vw;
+  padding: 2vw 0 2.2vw 0;
+}
+* body .container .about .infoblock {
+  display: flex;
+  justify-content: center;
+}
+* body .container .about .infoblock .info {
+  text-align: left;
+  padding-bottom: 15vw;
+  padding-left: 7vw;
+  width: 40%;
+  font-size: 1.1vw;
 }/*# sourceMappingURL=style.css.map */

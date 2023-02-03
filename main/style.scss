@@ -181,6 +181,27 @@ $aboutgreen: #0E4946;
             }
             .about {
                 // 3rd Block
+                background-color: $aboutgreen;
+                color: $skillswhite;
+                height: 50vw;
+                h1 {
+                    font-size: 5vw;
+                    margin: 0 0 0 3vw;
+                    padding: 2vw 0 2.2vw 0;
+                }
+                .infoblock {
+                    // background-color: aquamarine;
+                    display: flex;
+                    justify-content: center;
+                    .info {
+                        // background-color: pink;
+                        text-align: left;
+                        padding-bottom: 15vw;
+                        padding-left: 7vw;
+                        width: 40%;
+                        font-size: 1.1vw;
+                    }
+                }
             }
             .portfolio {
                 // 4th Block
