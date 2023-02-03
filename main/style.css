@@ -147,4 +147,132 @@
   padding-left: 7vw;
   width: 40%;
   font-size: 1.1vw;
+  line-height: 2.5;
+}
+* body .container .portfolio {
+  background-color: #080E2F;
+  color: #FFFFFF;
+  height: 55vw;
+}
+* body .container .portfolio h1 {
+  font-size: 5vw;
+  text-align: right;
+  margin: 0 2vw 0 0;
+  padding: 2vw 0 0 0;
+}
+* body .container .portfolio .portcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+* body .container .portfolio .portcontainer .appsheader {
+  font-size: 3vh;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  width: 23%;
+  margin-right: 3vw;
+}
+* body .container .portfolio .portcontainer .appcontainer {
+  width: 80%;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps {
+  display: flex;
+  justify-content: center;
+  padding: 5vw 0 10vw 0;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app1 {
+  width: 60vw;
+  height: 20vw;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin: 0 6vw 0 0;
+  padding: 2vw 0 0 0;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app1 img {
+  width: 10vw;
+  height: 10vw;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app1 a {
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app2 {
+  width: 70vw;
+  height: 20vw;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin: 0 6vw 0 0;
+  padding: 4vw 0 0 0;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app2 img {
+  width: 9vw;
+  height: 7vw;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app2 a {
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app2 a p {
+  padding-top: 1vw;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app3 {
+  width: 70vw;
+  height: 20vw;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+  padding: 2vw 0 0 0;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app3 img {
+  width: 15vw;
+  height: 10vw;
+}
+* body .container .portfolio .portcontainer .appcontainer .apps #app3 a {
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .blog {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 0 1vw 0 1vw;
+}
+* body .container .blog h1 {
+  font-size: 5vw;
+  text-align: left;
+}
+* body .container .blog .blogs {
+  display: flex;
+  padding: 0 0 8vw 0;
+}
+* body .container .blog .blogs .blogline {
+  padding-top: 2vw;
+  padding-left: 8vw;
+  padding-bottom: 10vw;
+}
+* body .container .blog .blogs .blogline a {
+  text-decoration: none;
+  color: black;
+}
+* body .container .blog .blogs .blogline a p {
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */

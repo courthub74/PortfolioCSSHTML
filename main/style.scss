@@ -200,14 +200,157 @@ $aboutgreen: #0E4946;
                         padding-left: 7vw;
                         width: 40%;
                         font-size: 1.1vw;
+                        line-height: 2.5;
                     }
                 }
             }
             .portfolio {
                 // 4th Block
+                background-color: $mainblue;
+                color: $skillswhite;
+                height: 55vw;
+                h1 {
+                    font-size: 5vw;
+                    text-align: right;
+                    margin: 0 2vw 0 0;
+                    padding: 2vw 0 0 0;
+                }
+                .portcontainer {
+                    // background-color: pink;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 5vh;
+                    .appsheader {
+                        font-size: 3vh;
+                        border: 1px solid $skillswhite;
+                        border-radius: 5px;
+                        text-align: center;
+                        width: 23%;
+                        // background-color: pink;
+                        margin-right: 3vw;
+                    }
+                    .appcontainer {
+                        // background-color: green;
+                        width: 80%;
+                        .apps {
+                            display: flex;
+                            justify-content: center;
+                            padding: 5vw 0 10vw 0;
+                            #app1 {
+                                width: 60vw;
+                                height: 20vw;
+                                border: 1px solid $skillswhite;
+                                border-radius: 5px;
+                                margin: 0 6vw 0 0;
+                                padding: 2vw 0 0 0;
+                                img {
+                                    width: 10vw;
+                                    height: 10vw;
+                                }
+                                a {
+                                    font-size: 1.5vw;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                    color: $skillswhite;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                            #app2 {
+                                width: 70vw;
+                                height: 20vw;
+                                border: 1px solid $skillswhite;
+                                border-radius: 5px;
+                                margin: 0 6vw 0 0;
+                                padding: 4vw 0 0 0;
+                                img {
+                                    width: 9vw;
+                                    height: 7vw;
+                                    // padding-bottom: 2vw;
+                                }
+                                a {
+                                    // padding-top: 2vw;
+                                    font-size: 1.5vw;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                    color: $skillswhite;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    p {
+                                        padding-top: 1vw;
+                                    }
+                                }
+                            }
+                            #app3 {
+                                width: 70vw;
+                                height: 20vw;
+                                border: 1px solid $skillswhite;
+                                border-radius: 5px;
+                                margin: 0 0 0 0;
+                                padding: 2vw 0 0 0;
+
+                                img {
+                                    width: 15vw;
+                                    height: 10vw;
+                                }
+                                a {
+                                    font-size: 1.5vw;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                    color: $skillswhite;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                            }
+                        }
+                    }
+                    // .designcontainer {
+                    //     background-color: cornflowerblue;
+                    //     width: 60%;
+                    //     .designheader {
+                    //         text-align: center;
+                    //     }
+                    //     .design {
+                    //         display: flex;
+                    //         justify-content: center;
+                    //         padding: 2vw;
+                    //     }
+                    // }
+                }
             }
             .blog {
                 // 5th Block
+                background-color: $skillswhite;
+                color: black;
+                padding: 0 1vw 0 1vw;
+                h1 {
+                    font-size: 5vw;
+                    text-align: left;
+                }
+                .blogs {
+                    display: flex;
+                    padding: 0 0 8vw 0;
+                    .blogline {
+                        padding-top: 2vw;
+                        padding-left: 8vw;
+                        padding-bottom: 10vw;
+                        // background-color: peachpuff;
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            p {
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
             }
             .experience {
                 // 6th Block
