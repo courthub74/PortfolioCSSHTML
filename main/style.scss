@@ -73,6 +73,13 @@ $aboutgreen: #0E4946;
                             height: 28vw;
                         }
                     }
+                    .socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // background-color: darkgreen;
+                        margin: 5vh 0 0 0; 
+                    }
                 }
             }
             // SKILLS SECTION
@@ -363,12 +370,11 @@ $aboutgreen: #0E4946;
                     margin: 0 0 0 3vw;
                     padding: 2vw 3vw 0 0;
                     text-align: right;
-                    // background-color: pink;
                 }
                 .expcontainer {
                     display: flex;
                     flex-direction: row;
-                    // background-color: pink;
+                    // background-color:pink;
                     .places {
                             display: flex;
                             flex-direction: column;
@@ -476,8 +482,82 @@ $aboutgreen: #0E4946;
                     }
                 }
             }
+            // CONTACT SECTION
             .contact {
                 // Last Block
+                background-color: $mainblue;
+                color: $skillswhite;
+                height: 50vw;
+                padding: 1vh 0 0 1vw;
+                h1 {
+                    font-size: 5vw;
+                    padding: 0 0 0 9vw;
+                }
+                .contactcontainer {
+                    padding: 2vh 0 0 20vh;
+                    display: flex;
+                    .nameemaildiv {
+                        // padding: 4vh;
+                        .name {
+                            p {
+                                font-size: 2vw;
+                            }
+                            input {
+                                width: 30vw;
+                                height: 6vh;
+                                border: none;
+                                border-radius: 5px;
+                            }
+                        }
+                        .email {
+                            p {
+                                font-size: 2vw;
+                            }
+                            input {
+                                width: 30vw;
+                                height: 6vh;
+                                border: none;
+                                border-radius: 5px;
+                            }
+                        }
+                        .socials {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            // background-color: darkgreen;
+                            margin: 5vh 0 0 0; 
+                        }
+                    }
+                    .messageandsubmitdiv {
+                        padding: 0 0 0 12vw;
+                        .message {
+                            p {
+                                font-size: 2vw;
+                            }
+                            input {
+                                width: 30vw;
+                                height: 26vh;
+                                border: none;
+                                border-radius: 5px;
+                            }
+                        }
+                        .submit {
+                            width: 100%;
+                            // background-color: pink;
+                            button {
+                                cursor: pointer;
+                                width: 100%;
+                                margin-top: 2vh;
+                                height: 5vh;
+                                background-color: $mainblue;
+                                border: 1px solid $skillswhite;
+                                border-radius: 5px;
+                                color: $skillswhite;
+                                font-size: 1vw;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
