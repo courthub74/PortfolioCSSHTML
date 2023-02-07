@@ -40,13 +40,13 @@ $aboutgreen: #0E4946;
                         .header {
                             text-align: center;
                             padding: 0 0 0 2vh ;
-                            margin: 10vh 0 0 4vw;
+                            margin: 10vh 0 0 3vw;
                             color: white;
                             grid-column: 1;
                             grid-row: 3;
                             width: 40vw;
                             #header {
-                                font-size: 3vw;
+                                font-size: 2.8vw;
                                 font-weight: bold;
                             }
                             #para {
@@ -89,7 +89,7 @@ $aboutgreen: #0E4946;
                         justify-content: center;
                         align-items: center;
                         margin-top: 15vh;
-                        margin-left: 3.3vw;
+                        margin-left: .7vw;
                         a {
                             cursor: pointer;
                         }
@@ -138,7 +138,7 @@ $aboutgreen: #0E4946;
                             height: 70vh;
                             width: 35vw;
                             border-radius: 50%;
-                            margin-left: 6.7vw;
+                            margin-left: 7.8vw;
                             margin-top: 5vh;
                             margin-bottom: 5vh;
                         }
@@ -382,18 +382,6 @@ $aboutgreen: #0E4946;
                             }
                         }
                     }
-                    // .designcontainer {
-                    //     background-color: cornflowerblue;
-                    //     width: 60%;
-                    //     .designheader {
-                    //         text-align: center;
-                    //     }
-                    //     .design {
-                    //         display: flex;
-                    //         justify-content: center;
-                    //         padding: 2vw;
-                    //     }
-                    // }
                 }
             }
             .blog {
