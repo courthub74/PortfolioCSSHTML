@@ -230,10 +230,12 @@ $aboutgreen: #0E4946;
                                     padding: 0 .1vw .4vw .1vw;
                                 }
                                 #nodejs {
-                                    padding: 0 0 0 .1vw;
+                                    width: 4.4vw;
                                     // background-color: aqua;
                                 }
                                 #mongodb {
+                                    width: 4vw;
+                                    margin-left: -1vw;
                                     // background-color: aqua;
                                     // padding: 0 1vw 0 0;
                                 }
@@ -242,6 +244,7 @@ $aboutgreen: #0E4946;
                                     padding: 0 0 0 0;
                                 }
                                 #firebase {
+                                    width: 4.5vw;
                                     padding-left: .5vw;
                                 }
                             }
@@ -395,11 +398,11 @@ $aboutgreen: #0E4946;
                 }
                 .blogs {
                     display: flex;
-                    padding: 0 0 8vw 0;
+                    padding: 0 0 5vw 0;
                     .blogline {
                         padding-top: 2vw;
-                        padding-left: 8vw;
-                        padding-bottom: 6vw;
+                        padding-left: 5vw;
+                        padding-bottom: 3vw;
                         // background-color: peachpuff;
                         a {
                             text-decoration: none;
@@ -416,22 +419,23 @@ $aboutgreen: #0E4946;
                 // 6th Block
                 background-color: $aboutgreen;
                 color: $skillswhite;
-                height: 55vw;
+                height: 60vw;
                 h1 {
                     font-size: 5vw;
                     margin: 0 0 0 3vw;
-                    padding: 2vw 3vw 0 0;
+                    padding: 1vw 3vw 0 0;
                     text-align: right;
                 }
                 .expcontainer {
                     display: flex;
                     flex-direction: row;
                     // background-color:pink;
+                    margin-right: 60vw;
                     .places {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin: 3.5vh 4vw 0 20vw;
+                            margin: 0vh 0vw 0 20vw;
                             width: 15%;
                             // background-color: pink;
                         .courdevs {
@@ -440,7 +444,7 @@ $aboutgreen: #0E4946;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin-bottom: 7vh;
+                            margin-bottom: 5vh;
                             img {
                                 width: 8vw;
                                 height: 8vw;
@@ -459,7 +463,7 @@ $aboutgreen: #0E4946;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
-                            margin-bottom: 7vh;
+                            margin-bottom: 6vh;
                             img {
                                 width: 6vw;
                                 height: 4vw;
@@ -493,10 +497,9 @@ $aboutgreen: #0E4946;
                     }
                     .descriptions {
                         // Every Description List
-                        // background-color: lightblue;
-                        margin-left: 2vw;
                         .descriptionlist {
                             // background-color: lightblue;
+                            // width: 50%;
                             margin-left: -2.3vw;
                             ul {
                                 list-style: none;
@@ -511,25 +514,25 @@ $aboutgreen: #0E4946;
                         color: $skillswhite;
                         // COURDEVELOPS
                         .courdevelops {    
-                            margin-top: 6.5vh;
+                            margin-top: 5vh;
                             h2 {
                             
                             }
                         }
                         // R1RCM
                         .r1description {
-                            margin-top: 10.5vh;
+                            margin-top: 10vh;
                             h2 {
 
                             }
                         }
                         .sleadescription {
-                            margin-top: 11.5vh;
+                            margin-top: 10vh;
                         }
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 800px;
+                        height: 650px;
                         margin: 0 5vw 0 5vw;
                     }
                 }
@@ -642,7 +645,7 @@ $aboutgreen: #0E4946;
                                 border: 1px solid $skillswhite;
                                 border-radius: 5px;
                                 color: $skillswhite;
-                                font-size: 1vw;
+                                font-size: 1.5vw;
                             }
                         }
                     }
