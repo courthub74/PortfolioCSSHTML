@@ -14,72 +14,135 @@ $aboutgreen: #0E4946;
         // margin 0
         // margin: 0;
         .container {
-            // margin: auto 0;
+            // THE WHOLE THING
             .header {
                 // First Block
                 background-color: $mainblue;
                 color: $skillswhite;
-                padding: 3vw;
-                .content {
-                    // set width and margin here
-                    width: 95%;
-                    margin: auto;
-                }
-                .pagetop {
-                    // THIS ALL MAY NEED TO BE GRID
-                    display: flex;
-                    justify-content: space-between;
-                    // background-color: antiquewhite;
+                padding: 1vw;
+                // START GRID 
+                .grid-container {
+                    display: grid;
+                    height: 100vh;
+                    // ALL THE GRID ITEMS
+                    .grid-item {
+                        // margin: 0vh 1vh 1vh 1vh;
+                    }
                     .logo {
+                        grid-column: 1;
+                        grid-row: 1 / span 2;
                         img {
-                            // resize the logo
-                            width: 15vw;
-                            height: 15vw;
+                            width: 18vw;
+                            height: 25vh;
+                            padding: 0 0 0 10vh;
+                        }
+                        // HEADLINER
+                        .header {
+                            text-align: center;
+                            padding: 0 0 0 2vh ;
+                            margin: 10vh 0 0 4vw;
+                            color: white;
+                            grid-column: 1;
+                            grid-row: 3;
+                            width: 40vw;
+                            #header {
+                                font-size: 3vw;
+                                font-weight: bold;
+                            }
+                            #para {
+                                font-size: large;
+                                margin-right: 1vw;
+                            }
                         }
                     }
-                    nav {
-                        // set up the navbar appearence
-                        // background-color: antiquewhite;
+                    .navbar {
+                        grid-column: 2;
+                        height: 6vh;
                         ul {
+                            text-align: center;
+                            a {
+                                cursor: pointer;
+                                color: white;
+                                text-decoration: none;
+                            }
                             li {
                                 display: inline;
-                                padding: 2vw;
-                               a {
+                                padding: 1.5vw;
+                                list-style: none;
+                                color: white;
                                 font-weight: 600;
                                 font-size: 1.5vw;
-                                text-decoration: none;
-                                color: $skillswhite;
-                               }
-                               #portfolio {
+                            }
+                            #selected {
+                                background-color: white;
                                 color: $mainblue;
-                                background-color: $skillswhite;
-                                padding: .3vw;
                                 border-radius: 5px;
-                            }
+                                padding: .4vw;
                             }
                         }
                     }
-                }
-
-                .pagebottom {
-                    display: flex;
-                    justify-content: space-between;
-                    // background-color: aquamarine;
-                    .headshot {
-                        margin: 0 10vw 0 0;
-                        img {
-                            border-radius: 50%;
-                            width: 28vw;
-                            height: 28vw;
-                        }
-                    }
+                    // SOCIALS
                     .socials {
+                        grid-column: 1;
+                        grid-row: 3;
                         display: flex;
-                        align-items: center;
                         justify-content: center;
-                        // background-color: darkgreen;
-                        margin: 5vh 0 0 0; 
+                        align-items: center;
+                        margin-top: 15vh;
+                        margin-left: 3.3vw;
+                        a {
+                            cursor: pointer;
+                        }
+                        #github {
+                            margin: 0 2vw 0 0;
+                            img {
+                                width: 3.5vw;
+                                height: 7vh;
+                            }
+                        }
+                        #linkedin {
+                            margin: 0 2vw 0 0;
+                            img {
+                                width: 4.5vw;
+                                height: 8.5vh;
+                            }
+                        }
+                        #twitter {
+                            margin: 0 1.5vw 0 -.4vw;
+                            img {
+                                width: 4.5vw;
+                                height: 8.5vh;
+                            }
+                        }
+                        #instagram {
+                            margin: 0 1.5vw 0 -.01vw;
+                            img {
+                                width: 5vw;
+                                height: 10vh;
+                            }
+                        }
+                        #facebook {
+                            margin: 0 0 0 0;
+                            img {
+                                width: 3.5vw;
+                                height: 6.5vh;
+                            }
+                        }
                     }
+                    // PHOTO
+                    .photo {
+                        grid-column: 2;
+                        grid-row: 2 / span 3;
+                        
+                        img {
+                            height: 70vh;
+                            width: 35vw;
+                            border-radius: 50%;
+                            margin-left: 6.7vw;
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                        }
+                    }   
                 }
             }
             // SKILLS SECTION
@@ -299,11 +362,11 @@ $aboutgreen: #0E4946;
                                 border: 1px solid $skillswhite;
                                 border-radius: 5px;
                                 margin: 0 0 0 0;
-                                padding: 2vw 0 0 0;
-
+                                padding: 3.3vw 0 0 0;
                                 img {
-                                    width: 15vw;
-                                    height: 10vw;
+                                    width: 9vw;
+                                    height: 16vh;
+                                    // margin-bottom: .1vh;
                                 }
                                 a {
                                     font-size: 1.5vw;
@@ -314,6 +377,7 @@ $aboutgreen: #0E4946;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    margin-top: 1vh;
                                 }
                             }
                         }
@@ -523,9 +587,46 @@ $aboutgreen: #0E4946;
                         .socials {
                             display: flex;
                             align-items: center;
-                            justify-content: center;
-                            // background-color: darkgreen;
+                            justify-content: left;
+                            // background-color: coral;
                             margin: 5vh 0 0 0; 
+                            #github {
+                                // background-color: green;
+                                margin: 0 2.5vw 0 0;
+                                img {
+                                    width: 3.5vw;
+                                    height: 7vh;
+                                }
+                            }
+                            #linkedin {
+                                // background-color: yellowgreen;
+                                margin: 0 2.5vw 0 0;
+                                img {
+                                    width: 4.5vw;
+                                    height: 8.5vh;
+                                }
+                            }
+                            #twitter {
+                                margin: 0 2vw 0 -.4vw;
+                                img {
+                                    width: 4.5vw;
+                                    height: 8.5vh;
+                                }
+                            }
+                            #instagram {
+                                margin: 0 2vw 0 -.01vw;
+                                img {
+                                    width: 5vw;
+                                    height: 10vh;
+                                }
+                            }
+                            #facebook {
+                                margin: 0 0 0 0;
+                                img {
+                                    width: 3.5vw;
+                                    height: 6.5vh;
+                                }
+                            }
                         }
                     }
                     .messageandsubmitdiv {

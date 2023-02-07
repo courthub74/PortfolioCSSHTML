@@ -6,53 +6,122 @@
 * body .container .header {
   background-color: #080E2F;
   color: #FFFFFF;
-  padding: 3vw;
+  padding: 1vw;
 }
-* body .container .header .content {
-  width: 95%;
-  margin: auto;
+* body .container .header .grid-container {
+  display: grid;
+  height: 100vh;
 }
-* body .container .header .pagetop {
-  display: flex;
-  justify-content: space-between;
+* body .container .header .grid-container .logo {
+  grid-column: 1;
+  grid-row: 1/span 2;
 }
-* body .container .header .pagetop .logo img {
-  width: 15vw;
-  height: 15vw;
+* body .container .header .grid-container .logo img {
+  width: 18vw;
+  height: 25vh;
+  padding: 0 0 0 10vh;
 }
-* body .container .header .pagetop nav ul li {
+* body .container .header .grid-container .logo .header {
+  text-align: center;
+  padding: 0 0 0 2vh;
+  margin: 10vh 0 0 4vw;
+  color: white;
+  grid-column: 1;
+  grid-row: 3;
+  width: 40vw;
+}
+* body .container .header .grid-container .logo .header #header {
+  font-size: 3vw;
+  font-weight: bold;
+}
+* body .container .header .grid-container .logo .header #para {
+  font-size: large;
+  margin-right: 1vw;
+}
+* body .container .header .grid-container .navbar {
+  grid-column: 2;
+  height: 6vh;
+}
+* body .container .header .grid-container .navbar ul {
+  text-align: center;
+}
+* body .container .header .grid-container .navbar ul a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+* body .container .header .grid-container .navbar ul li {
   display: inline;
-  padding: 2vw;
-}
-* body .container .header .pagetop nav ul li a {
+  padding: 1.5vw;
+  list-style: none;
+  color: white;
   font-weight: 600;
   font-size: 1.5vw;
-  text-decoration: none;
-  color: #FFFFFF;
 }
-* body .container .header .pagetop nav ul li #portfolio {
+* body .container .header .grid-container .navbar ul #selected {
+  background-color: white;
   color: #080E2F;
-  background-color: #FFFFFF;
-  padding: 0.3vw;
   border-radius: 5px;
+  padding: 0.4vw;
 }
-* body .container .header .pagebottom {
+* body .container .header .grid-container .socials {
+  grid-column: 1;
+  grid-row: 3;
   display: flex;
-  justify-content: space-between;
-}
-* body .container .header .pagebottom .headshot {
-  margin: 0 10vw 0 0;
-}
-* body .container .header .pagebottom .headshot img {
-  border-radius: 50%;
-  width: 28vw;
-  height: 28vw;
-}
-* body .container .header .pagebottom .socials {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 5vh 0 0 0;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 3.3vw;
+}
+* body .container .header .grid-container .socials a {
+  cursor: pointer;
+}
+* body .container .header .grid-container .socials #github {
+  margin: 0 2vw 0 0;
+}
+* body .container .header .grid-container .socials #github img {
+  width: 3.5vw;
+  height: 7vh;
+}
+* body .container .header .grid-container .socials #linkedin {
+  margin: 0 2vw 0 0;
+}
+* body .container .header .grid-container .socials #linkedin img {
+  width: 4.5vw;
+  height: 8.5vh;
+}
+* body .container .header .grid-container .socials #twitter {
+  margin: 0 1.5vw 0 -0.4vw;
+}
+* body .container .header .grid-container .socials #twitter img {
+  width: 4.5vw;
+  height: 8.5vh;
+}
+* body .container .header .grid-container .socials #instagram {
+  margin: 0 1.5vw 0 -0.01vw;
+}
+* body .container .header .grid-container .socials #instagram img {
+  width: 5vw;
+  height: 10vh;
+}
+* body .container .header .grid-container .socials #facebook {
+  margin: 0 0 0 0;
+}
+* body .container .header .grid-container .socials #facebook img {
+  width: 3.5vw;
+  height: 6.5vh;
+}
+* body .container .header .grid-container .photo {
+  grid-column: 2;
+  grid-row: 2/span 3;
+}
+* body .container .header .grid-container .photo img {
+  height: 70vh;
+  width: 35vw;
+  border-radius: 50%;
+  margin-left: 6.7vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 * body .container .skills {
   background-color: #FFFFFF;
@@ -241,11 +310,11 @@
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   margin: 0 0 0 0;
-  padding: 2vw 0 0 0;
+  padding: 3.3vw 0 0 0;
 }
 * body .container .portfolio .portcontainer .appcontainer .apps #app3 img {
-  width: 15vw;
-  height: 10vw;
+  width: 9vw;
+  height: 16vh;
 }
 * body .container .portfolio .portcontainer .appcontainer .apps #app3 a {
   font-size: 1.5vw;
@@ -256,6 +325,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 1vh;
 }
 * body .container .blog {
   background-color: #FFFFFF;
@@ -412,8 +482,43 @@
 * body .container .contact .contactcontainer .nameemaildiv .socials {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   margin: 5vh 0 0 0;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #github {
+  margin: 0 2.5vw 0 0;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #github img {
+  width: 3.5vw;
+  height: 7vh;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #linkedin {
+  margin: 0 2.5vw 0 0;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #linkedin img {
+  width: 4.5vw;
+  height: 8.5vh;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #twitter {
+  margin: 0 2vw 0 -0.4vw;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #twitter img {
+  width: 4.5vw;
+  height: 8.5vh;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #instagram {
+  margin: 0 2vw 0 -0.01vw;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #instagram img {
+  width: 5vw;
+  height: 10vh;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #facebook {
+  margin: 0 0 0 0;
+}
+* body .container .contact .contactcontainer .nameemaildiv .socials #facebook img {
+  width: 3.5vw;
+  height: 6.5vh;
 }
 * body .container .contact .contactcontainer .messageandsubmitdiv {
   padding: 0 0 0 12vw;
