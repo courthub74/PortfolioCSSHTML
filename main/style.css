@@ -428,9 +428,12 @@
   margin-top: -4vh;
   color: #FFFFFF;
 }
+* body .container .experience .expcontainer .descriptions h3 {
+  margin-left: -1.3vw;
+}
 * body .container .experience .expcontainer .descriptions .descriptionlist {
   width: 100vw;
-  margin-left: -3vw;
+  margin-left: -4vw;
 }
 * body .container .experience .expcontainer .descriptions .descriptionlist ul {
   list-style: none;
@@ -451,7 +454,7 @@
 }
 * body .container .experience .expcontainer .vl2 {
   border-left: 2px solid #FFFFFF;
-  height: 600px;
+  height: 590px;
   margin: 0 5vw 0 5vw;
 }
 * body .container .contact {

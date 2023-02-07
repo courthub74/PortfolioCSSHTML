@@ -499,10 +499,13 @@ $aboutgreen: #0E4946;
                         // Every Description List
                         // background-color: lightblue;
                         margin-top: -4vh;
+                        h3 {
+                            margin-left: -1.3vw;
+                        }
                         .descriptionlist {
                             // background-color: lightblue;
                             width: 100vw;
-                            margin-left: -3vw;
+                            margin-left: -4vw;
                             ul {
                                 list-style: none;
                                 margin-top: -.8vw;
@@ -534,7 +537,7 @@ $aboutgreen: #0E4946;
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 600px;
+                        height: 590px;
                         margin: 0 5vw 0 5vw;
                     }
                 }
