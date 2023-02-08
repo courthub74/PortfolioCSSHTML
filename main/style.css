@@ -124,9 +124,10 @@
   margin-bottom: 5vh;
 }
 * body .container .skills {
-  background-color: #FFFFFF;
-  color: black;
-  padding-bottom: 10vw;
+  background-color: #146166;
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 5vw;
 }
 * body .container .skills h1 {
   text-align: right;
@@ -152,7 +153,7 @@
   font-size: 1.5vw;
 }
 * body .container .skills .skillcontainer .vl {
-  border: 1px solid black;
+  border: 1px solid white;
   height: 500px;
 }
 * body .container .skills .skillcontainer .skillicons {
@@ -163,65 +164,44 @@
 * body .container .skills .skillcontainer .skillicons .front p {
   font-size: 1.5vw;
 }
-* body .container .skills .skillcontainer .skillicons .front .icons #html {
-  width: 4vw;
+* body .container .skills .skillcontainer .skillicons .front .icons {
+  display: flex;
+  gap: 20px;
 }
-* body .container .skills .skillcontainer .skillicons .front .icons #css {
-  width: 4.04vw;
-}
-* body .container .skills .skillcontainer .skillicons .front .icons #js {
-  width: 3.9vw;
-  height: 3.7vw;
-  padding: 0 0 0 0.3vw;
-}
-* body .container .skills .skillcontainer .skillicons .front .icons #reactjs {
-  width: 4vw;
-  padding: 0 0 0 0.3vw;
-}
-* body .container .skills .skillcontainer .skillicons .front .icons #sass {
-  width: 4vw;
-  padding: 0 0 0 0.3vw;
+* body .container .skills .skillcontainer .skillicons .front .icons .iconblock {
+  width: 6vw;
+  height: 9vh;
+  background-color: #023430;
+  border-radius: 10px;
 }
 * body .container .skills .skillcontainer .skillicons .back p {
   font-size: 1.5vw;
 }
-* body .container .skills .skillcontainer .skillicons .back .icons #python {
-  width: 4.3vw;
+* body .container .skills .skillcontainer .skillicons .back .icons {
+  display: flex;
+  gap: 20px;
 }
-* body .container .skills .skillcontainer .skillicons .back .icons #django {
-  width: 3.3vw;
-  padding: 0 0.1vw 0.4vw 0.1vw;
+* body .container .skills .skillcontainer .skillicons .back .icons .iconblock {
+  width: 6vw;
+  height: 9vh;
+  background-color: #023430;
+  border-radius: 10px;
 }
-* body .container .skills .skillcontainer .skillicons .back .icons #nodejs {
-  width: 4.4vw;
-}
-* body .container .skills .skillcontainer .skillicons .back .icons #mongodb {
-  width: 4vw;
-  margin-left: -1vw;
-}
-* body .container .skills .skillcontainer .skillicons .back .icons #postgresql {
-  width: 4vw;
-  padding: 0 0 0 0;
-}
-* body .container .skills .skillcontainer .skillicons .back .icons #firebase {
-  width: 4.5vw;
-  padding-left: 0.5vw;
-}
-* body .container .about {
+* body .about {
   background-color: #0E4946;
   color: #FFFFFF;
   height: 50vw;
 }
-* body .container .about h1 {
+* body .about h1 {
   font-size: 5vw;
   margin: 0 0 0 3vw;
   padding: 2vw 0 2.2vw 0;
 }
-* body .container .about .infoblock {
+* body .about .infoblock {
   display: flex;
   justify-content: center;
 }
-* body .container .about .infoblock .info {
+* body .about .infoblock .info {
   text-align: left;
   padding-bottom: 15vw;
   padding-top: 15vh;
@@ -230,24 +210,24 @@
   font-size: 1.1vw;
   line-height: 2.5;
 }
-* body .container .portfolio {
+* body .portfolio {
   background-color: #080E2F;
   color: #FFFFFF;
   height: 55vw;
 }
-* body .container .portfolio h1 {
+* body .portfolio h1 {
   font-size: 5vw;
   text-align: right;
   margin: 0 2vw 0 0;
   padding: 2vw 0 0 0;
 }
-* body .container .portfolio .portcontainer {
+* body .portfolio .portcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 5vh;
 }
-* body .container .portfolio .portcontainer .appsheader {
+* body .portfolio .portcontainer .appsheader {
   font-size: 3vh;
   border: 1px solid #FFFFFF;
   border-radius: 5px;
@@ -255,15 +235,15 @@
   width: 23%;
   margin-right: 3vw;
 }
-* body .container .portfolio .portcontainer .appcontainer {
+* body .portfolio .portcontainer .appcontainer {
   width: 80%;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps {
+* body .portfolio .portcontainer .appcontainer .apps {
   display: flex;
   justify-content: center;
   padding: 5vw 0 10vw 0;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app1 {
+* body .portfolio .portcontainer .appcontainer .apps #app1 {
   width: 60vw;
   height: 20vw;
   border: 1px solid #FFFFFF;
@@ -271,11 +251,11 @@
   margin: 0 6vw 0 0;
   padding: 2vw 0 0 0;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app1 img {
+* body .portfolio .portcontainer .appcontainer .apps #app1 img {
   width: 10vw;
   height: 10vw;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app1 a {
+* body .portfolio .portcontainer .appcontainer .apps #app1 a {
   font-size: 1.5vw;
   font-weight: bold;
   text-decoration: none;
@@ -285,7 +265,7 @@
   justify-content: center;
   align-items: center;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app2 {
+* body .portfolio .portcontainer .appcontainer .apps #app2 {
   width: 70vw;
   height: 20vw;
   border: 1px solid #FFFFFF;
@@ -293,11 +273,11 @@
   margin: 0 6vw 0 0;
   padding: 4vw 0 0 0;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app2 img {
+* body .portfolio .portcontainer .appcontainer .apps #app2 img {
   width: 9vw;
   height: 7vw;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app2 a {
+* body .portfolio .portcontainer .appcontainer .apps #app2 a {
   font-size: 1.5vw;
   font-weight: bold;
   text-decoration: none;
@@ -307,10 +287,10 @@
   justify-content: center;
   align-items: center;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app2 a p {
+* body .portfolio .portcontainer .appcontainer .apps #app2 a p {
   padding-top: 1vw;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app3 {
+* body .portfolio .portcontainer .appcontainer .apps #app3 {
   width: 70vw;
   height: 20vw;
   border: 1px solid #FFFFFF;
@@ -318,11 +298,11 @@
   margin: 0 0 0 0;
   padding: 3.3vw 0 0 0;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app3 img {
+* body .portfolio .portcontainer .appcontainer .apps #app3 img {
   width: 9vw;
   height: 16vh;
 }
-* body .container .portfolio .portcontainer .appcontainer .apps #app3 a {
+* body .portfolio .portcontainer .appcontainer .apps #app3 a {
   font-size: 1.5vw;
   font-weight: bold;
   text-decoration: none;
@@ -333,248 +313,249 @@
   align-items: center;
   margin-top: 1vh;
 }
-* body .container .blog {
-  background-color: #FFFFFF;
-  color: black;
-  padding: 0 1vw 0 1vw;
+* body .blog {
+  background-color: #146166;
+  color: white;
+  padding: 1vh 1vw 0 1vw;
 }
-* body .container .blog h1 {
+* body .blog h1 {
   font-size: 5vw;
   text-align: left;
 }
-* body .container .blog .blogs {
+* body .blog .blogs {
   display: flex;
   padding: 0 0 5vw 0;
 }
-* body .container .blog .blogs .blogline {
+* body .blog .blogs .blogline {
   padding-top: 2vw;
   padding-left: 5vw;
   padding-bottom: 3vw;
 }
-* body .container .blog .blogs .blogline a {
+* body .blog .blogs .blogline a {
   text-decoration: none;
   color: black;
 }
-* body .container .blog .blogs .blogline a p {
+* body .blog .blogs .blogline a p {
   opacity: 0.5;
 }
-* body .container .experience {
+* body .experience {
   background-color: #0E4946;
   color: #FFFFFF;
   height: 60vw;
+  padding-top: 1vh;
 }
-* body .container .experience h1 {
+* body .experience h1 {
   font-size: 5vw;
   margin: 2vh 0 0 3vw;
   padding: 2vw 3vw 0 0;
   text-align: right;
 }
-* body .container .experience .expcontainer {
+* body .experience .expcontainer {
   display: flex;
   flex-direction: row;
   margin-right: 60vw;
   margin-top: 10vh;
 }
-* body .container .experience .expcontainer .places {
+* body .experience .expcontainer .places {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0vh 0vw 0 20vw;
   width: 15%;
 }
-* body .container .experience .expcontainer .places .courdevs {
+* body .experience .expcontainer .places .courdevs {
   width: 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 5vh;
 }
-* body .container .experience .expcontainer .places .courdevs img {
+* body .experience .expcontainer .places .courdevs img {
   width: 6vw;
   height: 6vw;
 }
-* body .container .experience .expcontainer .places .courdevs h3 {
+* body .experience .expcontainer .places .courdevs h3 {
   font-size: 2vh;
 }
-* body .container .experience .expcontainer .places .courdevs p {
+* body .experience .expcontainer .places .courdevs p {
   margin-top: -0.9vw;
   font-size: 1.7vh;
 }
-* body .container .experience .expcontainer .places .r1rcm {
+* body .experience .expcontainer .places .r1rcm {
   width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 6vh;
 }
-* body .container .experience .expcontainer .places .r1rcm img {
+* body .experience .expcontainer .places .r1rcm img {
   width: 4vw;
   height: 3vw;
 }
-* body .container .experience .expcontainer .places .r1rcm h3 {
+* body .experience .expcontainer .places .r1rcm h3 {
   font-size: 2vh;
 }
-* body .container .experience .expcontainer .places .r1rcm p {
+* body .experience .expcontainer .places .r1rcm p {
   margin-top: -0.9vw;
   font-size: 1.7vh;
 }
-* body .container .experience .expcontainer .places .slea {
+* body .experience .expcontainer .places .slea {
   width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-* body .container .experience .expcontainer .places .slea img {
+* body .experience .expcontainer .places .slea img {
   width: 5vw;
   height: 5vw;
 }
-* body .container .experience .expcontainer .places .slea h3 {
+* body .experience .expcontainer .places .slea h3 {
   font-size: 2vh;
 }
-* body .container .experience .expcontainer .places .slea p {
+* body .experience .expcontainer .places .slea p {
   margin-top: -0.9vw;
   font-size: 1.7vh;
 }
-* body .container .experience .expcontainer .descriptions {
+* body .experience .expcontainer .descriptions {
   margin-top: -4vh;
   color: #FFFFFF;
 }
-* body .container .experience .expcontainer .descriptions h3 {
+* body .experience .expcontainer .descriptions h3 {
   margin-left: -1.3vw;
 }
-* body .container .experience .expcontainer .descriptions .descriptionlist {
+* body .experience .expcontainer .descriptions .descriptionlist {
   width: 100vw;
   margin-left: -4vw;
 }
-* body .container .experience .expcontainer .descriptions .descriptionlist ul {
+* body .experience .expcontainer .descriptions .descriptionlist ul {
   list-style: none;
   margin-top: -0.8vw;
   font-size: 1vw;
 }
-* body .container .experience .expcontainer .descriptions .descriptionlist ul li {
+* body .experience .expcontainer .descriptions .descriptionlist ul li {
   padding: 0.2vw;
 }
-* body .container .experience .expcontainer .descriptions .courdevelops {
+* body .experience .expcontainer .descriptions .courdevelops {
   margin-top: 5vh;
 }
-* body .container .experience .expcontainer .descriptions .courdevelops h3 {
+* body .experience .expcontainer .descriptions .courdevelops h3 {
   font-size: 2vh;
 }
-* body .container .experience .expcontainer .descriptions .courdevelops .descriptionlist ul li {
+* body .experience .expcontainer .descriptions .courdevelops .descriptionlist ul li {
   font-size: 1.8vh;
 }
-* body .container .experience .expcontainer .descriptions .r1description {
-  margin-top: 9vh;
-}
-* body .container .experience .expcontainer .descriptions .r1description h3 {
-  font-size: 2vh;
-}
-* body .container .experience .expcontainer .descriptions .r1description .descriptionlist ul li {
-  font-size: 1.8vh;
-}
-* body .container .experience .expcontainer .descriptions .sleadescription {
+* body .experience .expcontainer .descriptions .r1description {
   margin-top: 7vh;
 }
-* body .container .experience .expcontainer .descriptions .sleadescription h3 {
+* body .experience .expcontainer .descriptions .r1description h3 {
   font-size: 2vh;
 }
-* body .container .experience .expcontainer .descriptions .sleadescription .descriptionlist ul li {
+* body .experience .expcontainer .descriptions .r1description .descriptionlist ul li {
   font-size: 1.8vh;
 }
-* body .container .experience .expcontainer .vl2 {
+* body .experience .expcontainer .descriptions .sleadescription {
+  margin-top: 7vh;
+}
+* body .experience .expcontainer .descriptions .sleadescription h3 {
+  font-size: 2vh;
+}
+* body .experience .expcontainer .descriptions .sleadescription .descriptionlist ul li {
+  font-size: 1.8vh;
+}
+* body .experience .expcontainer .vl2 {
   border-left: 2px solid #FFFFFF;
   height: 515px;
   margin: 0 5vw 0 5vw;
 }
-* body .container .contact {
+* body .contact {
   background-color: #080E2F;
   color: #FFFFFF;
   height: 50vw;
   padding: 1vh 0 0 1vw;
 }
-* body .container .contact h1 {
+* body .contact h1 {
   font-size: 5vw;
   padding: 0 0 0 9vw;
 }
-* body .container .contact .contactcontainer {
+* body .contact .contactcontainer {
   padding: 2vh 0 0 20vh;
   display: flex;
 }
-* body .container .contact .contactcontainer .nameemaildiv .name p {
+* body .contact .contactcontainer .nameemaildiv .name p {
   font-size: 2vw;
 }
-* body .container .contact .contactcontainer .nameemaildiv .name input {
+* body .contact .contactcontainer .nameemaildiv .name input {
   width: 30vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
 }
-* body .container .contact .contactcontainer .nameemaildiv .email p {
+* body .contact .contactcontainer .nameemaildiv .email p {
   font-size: 2vw;
 }
-* body .container .contact .contactcontainer .nameemaildiv .email input {
+* body .contact .contactcontainer .nameemaildiv .email input {
   width: 30vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials {
+* body .contact .contactcontainer .nameemaildiv .socials {
   display: flex;
   align-items: center;
   justify-content: left;
   margin: 5vh 0 0 0;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #github {
+* body .contact .contactcontainer .nameemaildiv .socials #github {
   margin: 0 2.5vw 0 0;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #github img {
+* body .contact .contactcontainer .nameemaildiv .socials #github img {
   width: 3.5vw;
   height: 7vh;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #linkedin {
+* body .contact .contactcontainer .nameemaildiv .socials #linkedin {
   margin: 0 2.5vw 0 0;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #linkedin img {
+* body .contact .contactcontainer .nameemaildiv .socials #linkedin img {
   width: 4.5vw;
   height: 8.5vh;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #twitter {
+* body .contact .contactcontainer .nameemaildiv .socials #twitter {
   margin: 0 2vw 0 -0.4vw;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #twitter img {
+* body .contact .contactcontainer .nameemaildiv .socials #twitter img {
   width: 4.5vw;
   height: 8.5vh;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #instagram {
+* body .contact .contactcontainer .nameemaildiv .socials #instagram {
   margin: 0 2vw 0 -0.01vw;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #instagram img {
+* body .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 5vw;
   height: 10vh;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #facebook {
+* body .contact .contactcontainer .nameemaildiv .socials #facebook {
   margin: 0 0 0 0;
 }
-* body .container .contact .contactcontainer .nameemaildiv .socials #facebook img {
+* body .contact .contactcontainer .nameemaildiv .socials #facebook img {
   width: 3.5vw;
   height: 6.5vh;
 }
-* body .container .contact .contactcontainer .messageandsubmitdiv {
+* body .contact .contactcontainer .messageandsubmitdiv {
   padding: 0 0 0 12vw;
 }
-* body .container .contact .contactcontainer .messageandsubmitdiv .message p {
+* body .contact .contactcontainer .messageandsubmitdiv .message p {
   font-size: 2vw;
 }
-* body .container .contact .contactcontainer .messageandsubmitdiv .message input {
+* body .contact .contactcontainer .messageandsubmitdiv .message input {
   width: 30vw;
   height: 26vh;
   border: none;
   border-radius: 5px;
 }
-* body .container .contact .contactcontainer .messageandsubmitdiv .submit {
+* body .contact .contactcontainer .messageandsubmitdiv .submit {
   width: 100%;
 }
-* body .container .contact .contactcontainer .messageandsubmitdiv .submit button {
+* body .contact .contactcontainer .messageandsubmitdiv .submit button {
   cursor: pointer;
   width: 100%;
   margin-top: 2vh;

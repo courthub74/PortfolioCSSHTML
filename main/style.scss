@@ -5,6 +5,8 @@
 $mainblue: #080E2F;
 $skillswhite: #FFFFFF;
 $aboutgreen: #0E4946;
+$skillsteal: #146166;
+$iconblock: #023430;
 
 // UNIVERSAL DIRECTOR
 * {
@@ -148,9 +150,10 @@ $aboutgreen: #0E4946;
             // SKILLS SECTION
             .skills {
                 // 2nd Block
-                background-color: $skillswhite;
-                color: black;
-                padding-bottom: 10vw;
+                background-color: $skillsteal;
+                color: white;
+                padding-top: 2vh;
+                padding-bottom: 5vw;
                 h1 {
                     // background-color: rebeccapurple;
                     text-align: right;
@@ -180,7 +183,7 @@ $aboutgreen: #0E4946;
                         }
                     }
                     .vl {
-                        border: 1px solid black;
+                        border: 1px solid white;
                         height: 500px;
                     }
                     .skillicons {
@@ -193,26 +196,13 @@ $aboutgreen: #0E4946;
                                 font-size: 1.5vw;
                             }
                             .icons {
-                                #html {
-                                    width: 4vw;
-                                }
-                                #css {
-                                    width: 4.04vw;
-                                }
-                                #js {
-                                    width: 3.9vw;
-                                    height: 3.7vw;
-                                    // background-color: pink;
-                                    // margin-top: 1vw;
-                                    padding: 0 0 0 .3vw;
-                                }
-                                #reactjs {
-                                    width: 4vw;
-                                    padding: 0 0 0 .3vw;
-                                }
-                                #sass {
-                                    width: 4vw;
-                                    padding: 0 0 0 .3vw;
+                                display: flex;
+                                gap: 20px;
+                                .iconblock {
+                                    width: 6vw;
+                                    height: 9vh;
+                                    background-color: $iconblock;
+                                    border-radius: 10px;
                                 }
                             }
                         }
@@ -221,31 +211,14 @@ $aboutgreen: #0E4946;
                                 font-size: 1.5vw;
                             }
                             .icons {
-                                #python {
-                                    width: 4.3vw;
-                                    // background-color: pink;
-                                }
-                                #django {
-                                    width: 3.3vw;
-                                    padding: 0 .1vw .4vw .1vw;
-                                }
-                                #nodejs {
-                                    width: 4.4vw;
-                                    // background-color: aqua;
-                                }
-                                #mongodb {
-                                    width: 4vw;
-                                    margin-left: -1vw;
-                                    // background-color: aqua;
-                                    // padding: 0 1vw 0 0;
-                                }
-                                #postgresql {
-                                    width: 4vw;
-                                    padding: 0 0 0 0;
-                                }
-                                #firebase {
-                                    width: 4.5vw;
-                                    padding-left: .5vw;
+                                display: flex;
+                                gap: 20px;
+                                    .iconblock {
+                                        width: 6vw;
+                                        height: 9vh;
+                                        background-color: $iconblock;
+                                        border-radius: 10px;
+                                    }
                                 }
                             }
                         }
@@ -390,9 +363,9 @@ $aboutgreen: #0E4946;
             }
             .blog {
                 // 5th Block
-                background-color: $skillswhite;
-                color: black;
-                padding: 0 1vw 0 1vw;
+                background-color: $skillsteal;
+                color: white;
+                padding: 1vh 1vw 0 1vw;
                 h1 {
                     font-size: 5vw;
                     text-align: left;
@@ -421,6 +394,7 @@ $aboutgreen: #0E4946;
                 background-color: $aboutgreen;
                 color: $skillswhite;
                 height: 60vw;
+                padding-top: 1vh;
                 h1 {
                     font-size: 5vw;
                     margin: 2vh 0 0 3vw;
@@ -538,7 +512,7 @@ $aboutgreen: #0E4946;
                         }
                         // R1RCM
                         .r1description {
-                            margin-top: 9vh;
+                            margin-top: 7vh;
                             h3 {
                                 // background-color: pink; 
                                 font-size: 2vh;
@@ -689,4 +663,3 @@ $aboutgreen: #0E4946;
             }
         }
     }
-}
