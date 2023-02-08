@@ -198,11 +198,74 @@ $iconblock: #023430;
                             .icons {
                                 display: flex;
                                 gap: 20px;
+                                // the background for your skills icons
                                 .iconblock {
                                     width: 6vw;
                                     height: 9vh;
                                     background-color: $iconblock;
                                     border-radius: 10px;
+                                    #html {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3vw;
+                                            height: 6vh;
+                                        }
+                                    }
+                                    #css {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3vw;
+                                            height: 6vh;
+                                        }
+                                    }
+                                    #js {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 8vh;
+                                        }
+                                    }
+                                    #react {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.5vw;
+                                            height: 6.5vh;
+                                        }
+                                    }
+                                    #sass {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 2.9vw;
+                                            height: 4.9vh;
+                                        }
+                                    }
+                                    #tailwind {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                    }
                                 }
                             }
                         }
@@ -218,6 +281,69 @@ $iconblock: #023430;
                                         height: 9vh;
                                         background-color: $iconblock;
                                         border-radius: 10px;
+                                        #python {
+                                        // background-color: aqua;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        }
+                                        #django {
+                                            // background-color: aqua;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            img {
+                                                width: 3.5vw;
+                                                height: 6vh;
+                                            }
+                                        }
+                                        #nodejs {
+                                            // background-color: aqua;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            img {
+                                                width: 3.2vw;
+                                                height: 6.3vh;
+                                            }
+                                        }
+                                        #postgre {
+                                            // background-color: aqua;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            img {
+                                                width: 3.2vw;
+                                                height: 6.5vh;
+                                            }
+                                        }
+                                        #firebase {
+                                            // background-color: aqua;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            img {
+                                                width: 3.3vw;
+                                                height: 7.5vh;
+                                                margin-bottom: 1.8vh;
+                                            }
+                                        }
+                                        #mongodb {
+                                            // background-color: aqua;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            height: 100%;
+                                            img {
+                                                width: 3.2vw;
+                                                height: 7vh;
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -380,7 +506,7 @@ $iconblock: #023430;
                         // background-color: peachpuff;
                         a {
                             text-decoration: none;
-                            color: black;
+                            color: white;
                             p {
                                 opacity: .5;
                             }
