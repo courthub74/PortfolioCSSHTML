@@ -423,7 +423,7 @@ $aboutgreen: #0E4946;
                 height: 60vw;
                 h1 {
                     font-size: 5vw;
-                    margin: 0 0 0 3vw;
+                    margin: 2vh 0 0 3vw;
                     padding: 2vw 3vw 0 0;
                     text-align: right;
                 }
@@ -432,6 +432,7 @@ $aboutgreen: #0E4946;
                     flex-direction: row;
                     // background-color:pink;
                     margin-right: 60vw;
+                    margin-top: 10vh;
                     .places {
                             display: flex;
                             flex-direction: column;
@@ -450,12 +451,12 @@ $aboutgreen: #0E4946;
                                 width: 6vw;
                                 height: 6vw;
                             }
-                            h2 {
-                                // margin-top: -5vw;
+                            h3 {
+                              font-size: 2vh; 
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1vw;
+                                font-size: 1.7vh;
                             }
                         }
                         .r1rcm {
@@ -466,15 +467,16 @@ $aboutgreen: #0E4946;
                             align-items: center;
                             margin-bottom: 6vh;
                             img {
-                                width: 6vw;
-                                height: 4vw;
+                                width: 4vw;
+                                height: 3vw;
                             }
-                            h2 {
-                                // margin-left: 4vw;
+                            h3 {
+                                font-size: 2vh; 
+
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1vw;
+                                font-size: 1.7vh;
                             }
                         }
                         .slea {
@@ -484,15 +486,16 @@ $aboutgreen: #0E4946;
                             flex-direction: column;
                             align-items: center;
                             img {
-                                width: 6vw;
-                                height: 6vw;
+                                width: 5vw;
+                                height: 5vw;
                             }
-                            h2 {
-                                // margin-left: 4vw;
+                            h3 {
+                                font-size: 2vh; 
+
                             }
                             p {
                                 margin-top: -.9vw;
-                                font-size: 1vw;
+                                font-size: 1.7vh;
                             }
                         }
                     }
@@ -521,24 +524,51 @@ $aboutgreen: #0E4946;
                         // COURDEVELOPS
                         .courdevelops {    
                             margin-top: 5vh;
-                            h2 {
-                            
+                            h3 {
+                                // background-color: pink; 
+                                font-size: 2vh;
+                            }
+                            .descriptionlist {
+                                ul {
+                                    li {
+                                        font-size: 1.8vh;
+                                    }
+                                }
                             }
                         }
                         // R1RCM
                         .r1description {
-                            margin-top: 10vh;
-                            h2 {
-
+                            margin-top: 9vh;
+                            h3 {
+                                // background-color: pink; 
+                                font-size: 2vh;
+                            }
+                            .descriptionlist {
+                                ul {
+                                    li {
+                                        font-size: 1.8vh;
+                                    }
+                                }
                             }
                         }
                         .sleadescription {
-                            margin-top: 10vh;
+                            margin-top: 7vh;
+                            h3 {
+                                // background-color: pink; 
+                                font-size: 2vh;
+                            }
+                            .descriptionlist {
+                                ul {
+                                    li {
+                                        font-size: 1.8vh;
+                                    }
+                                }
+                            }
                         }
                     }
                     .vl2 {
                         border-left: 2px solid $skillswhite;
-                        height: 590px;
+                        height: 515px;
                         margin: 0 5vw 0 5vw;
                     }
                 }
