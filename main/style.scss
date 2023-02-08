@@ -192,12 +192,14 @@ $iconblock: #023430;
                         margin-right: 1vw;
                         width: 40%;
                         .front {
+                            // background-color: aquamarine;
                             p {
                                 font-size: 1.5vw;
                             }
                             .icons {
                                 display: flex;
                                 gap: 20px;
+                                transition: 1s;
                                 // the background for your skills icons
                                 .iconblock {
                                     width: 6vw;
@@ -505,6 +507,10 @@ $iconblock: #023430;
                         padding-bottom: 3vw;
                         // background-color: peachpuff;
                         a {
+                            img {
+                                border: 3px solid white;
+                                border-radius: 50%;
+                            }
                             text-decoration: none;
                             color: white;
                             p {
