@@ -104,6 +104,11 @@ $iconblock: #023430;
                         align-items: center;
                         margin-top: 15vh;
                         margin-left: .7vw;
+                        // background-color: green;
+                        .center {
+                            animation-name: moveFromCenter;
+                            animation-duration: 2s;
+                        }
                         a {
                             cursor: pointer;
                         }
@@ -169,6 +174,10 @@ $iconblock: #023430;
                 color: white;
                 padding-top: 2vh;
                 padding-bottom: 5vw;
+                .left {
+                    animation-name: moveInLeft;
+                    animation-duration: 2s;
+                }
                 h1 {
                     // background-color: rebeccapurple;
                     text-align: right;
@@ -179,7 +188,7 @@ $iconblock: #023430;
                     // background-color: lightpink;
                     display: flex;
                     justify-content: space-between;
-                    padding: 2vw 7vw;
+                    padding: 1vw 7vw;
                     .skillslist {
                         // background-color: lightblue;
                         margin-top: 1.6vw;
@@ -203,9 +212,13 @@ $iconblock: #023430;
                     }
                     .skillicons {
                         // background-color: lightgreen;
-                        margin-top: 2vw;
+                        margin-top: 4vw;
                         margin-right: 1vw;
                         width: 40%;
+                        .right {
+                            animation-name: moveInRight;
+                            animation-duration: 2s;
+                        }
                         .front {
                             // background-color: aquamarine;
                             p {
@@ -400,12 +413,20 @@ $iconblock: #023430;
                         width: 40%;
                         font-size: 1.1vw;
                         line-height: 2.5;
+                        .left {
+                            animation-name: moveInLeft;
+                            animation-duration: 2s;
+                        }
                     }
                     .coding {
                         // background-color: $mainblue;
                         width: 30vw;
                         height: 40vh;
                         margin-bottom: 15vh;
+                        .center {
+                            animation-name: moveFromCenter;
+                            animation-duration: 2s;
+                        }
                         img {
                             width: 20vw;
                             height: 38vh;
@@ -581,6 +602,10 @@ $iconblock: #023430;
                             margin: 0vh 0vw 0 20vw;
                             width: 15%;
                             // background-color: pink;
+                            .center {
+                                animation-name: moveFromCenter;
+                                animation-duration: 2s;
+                            }
                         .courdevs {
                             // background-color: pink;
                             width: 10vw;
@@ -644,6 +669,10 @@ $iconblock: #023430;
                         // Every Description List
                         // background-color: lightblue;
                         margin-top: -4vh;
+                        .right {
+                            animation-name: moveInRight;
+                            animation-duration: 2s;
+                        }
                         h3 {
                             margin-left: -1.3vw;
                         }
@@ -661,7 +690,7 @@ $iconblock: #023430;
                                 }
                             }
                         }
-                        color: $skillswhite;
+                        // color: $skillswhite;
                         // COURDEVELOPS
                         .courdevelops {    
                             margin-top: 5vh;
