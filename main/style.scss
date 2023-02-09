@@ -364,16 +364,18 @@ $iconblock: #023430;
                 // 3rd Block
                 background-color: $aboutgreen;
                 color: $skillswhite;
-                height: 50vw;
+                height: 52vw;
                 h1 {
                     font-size: 5vw;
                     margin: 0 0 0 3vw;
-                    padding: 2vw 0 2.2vw 0;
+                    padding: 4vw 0 2.2vw 0;
                 }
                 .infoblock {
                     // background-color: aquamarine;
                     display: flex;
                     justify-content: center;
+                    align-items: center;
+                    gap: 10vw;
                     .info {
                         // background-color: pink;
                         text-align: left;
@@ -384,25 +386,36 @@ $iconblock: #023430;
                         font-size: 1.1vw;
                         line-height: 2.5;
                     }
+                    .coding {
+                        // background-color: $mainblue;
+                        width: 30vw;
+                        height: 40vh;
+                        margin-bottom: 15vh;
+                        img {
+                            width: 20vw;
+                            height: 38vh;
+                            border-radius: 50%;
+                        }
+                    }
                 }
             }
             .portfolio {
                 // 4th Block
                 background-color: $mainblue;
                 color: $skillswhite;
-                height: 55vw;
+                height: 53vw;
                 h1 {
                     font-size: 5vw;
                     text-align: right;
                     margin: 0 2vw 0 0;
-                    padding: 2vw 0 0 0;
+                    padding: 3vw 0 0 0;
                 }
                 .portcontainer {
                     // background-color: pink;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin-top: 5vh;
+                    margin-top: 10vh;
                     .appsheader {
                         font-size: 3vh;
                         border: 1px solid $skillswhite;
@@ -704,7 +717,7 @@ $iconblock: #023430;
                         // padding: 4vh;
                         .name {
                             p {
-                                font-size: 2vw;
+                                font-size: 1.5vw;
                             }
                             input {
                                 width: 30vw;
@@ -715,7 +728,7 @@ $iconblock: #023430;
                         }
                         .email {
                             p {
-                                font-size: 2vw;
+                                font-size: 1.5vw;
                             }
                             input {
                                 width: 30vw;
@@ -773,7 +786,7 @@ $iconblock: #023430;
                         padding: 0 0 0 12vw;
                         .message {
                             p {
-                                font-size: 2vw;
+                                font-size: 1.5vw;
                             }
                             input {
                                 width: 30vw;
@@ -784,6 +797,7 @@ $iconblock: #023430;
                         }
                         .submit {
                             width: 100%;
+                            margin-top: 1vh;
                             // background-color: pink;
                             button {
                                 cursor: pointer;

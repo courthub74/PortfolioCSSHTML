@@ -310,16 +310,18 @@
 * body .about {
   background-color: #0E4946;
   color: #FFFFFF;
-  height: 50vw;
+  height: 52vw;
 }
 * body .about h1 {
   font-size: 5vw;
   margin: 0 0 0 3vw;
-  padding: 2vw 0 2.2vw 0;
+  padding: 4vw 0 2.2vw 0;
 }
 * body .about .infoblock {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10vw;
 }
 * body .about .infoblock .info {
   text-align: left;
@@ -330,22 +332,32 @@
   font-size: 1.1vw;
   line-height: 2.5;
 }
+* body .about .infoblock .coding {
+  width: 30vw;
+  height: 40vh;
+  margin-bottom: 15vh;
+}
+* body .about .infoblock .coding img {
+  width: 20vw;
+  height: 38vh;
+  border-radius: 50%;
+}
 * body .portfolio {
   background-color: #080E2F;
   color: #FFFFFF;
-  height: 55vw;
+  height: 53vw;
 }
 * body .portfolio h1 {
   font-size: 5vw;
   text-align: right;
   margin: 0 2vw 0 0;
-  padding: 2vw 0 0 0;
+  padding: 3vw 0 0 0;
 }
 * body .portfolio .portcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 * body .portfolio .portcontainer .appsheader {
   font-size: 3vh;
@@ -606,7 +618,7 @@
   display: flex;
 }
 * body .contact .contactcontainer .nameemaildiv .name p {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .name input {
   width: 30vw;
@@ -615,7 +627,7 @@
   border-radius: 5px;
 }
 * body .contact .contactcontainer .nameemaildiv .email p {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .email input {
   width: 30vw;
@@ -668,7 +680,7 @@
   padding: 0 0 0 12vw;
 }
 * body .contact .contactcontainer .messageandsubmitdiv .message p {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 * body .contact .contactcontainer .messageandsubmitdiv .message input {
   width: 30vw;
@@ -678,6 +690,7 @@
 }
 * body .contact .contactcontainer .messageandsubmitdiv .submit {
   width: 100%;
+  margin-top: 1vh;
 }
 * body .contact .contactcontainer .messageandsubmitdiv .submit button {
   cursor: pointer;
