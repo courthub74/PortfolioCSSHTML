@@ -280,7 +280,7 @@ $iconblock: #023430;
                                 gap: 8px;
                                     .iconblock {
                                         width: 30vw;
-                                        height: 11vh;
+                                        height: 10vh;
                                         background-color: $mainblue;
                                         border-radius: 50%;
                                         #python {
@@ -297,8 +297,8 @@ $iconblock: #023430;
                                             align-items: center;
                                             height: 100%;
                                             img {
-                                                width: 3vw;
-                                                height: 5vh;
+                                                width: 4vw;
+                                                height: 6vh;
                                                 margin-right: .3vw;
                                             }
                                         }
@@ -309,7 +309,7 @@ $iconblock: #023430;
                                             align-items: center;
                                             height: 100%;
                                             img {
-                                                width: 3.2vw;
+                                                width: 3vw;
                                                 height: 6.3vh;
                                             }
                                         }
@@ -320,9 +320,8 @@ $iconblock: #023430;
                                             align-items: center;
                                             height: 100%;
                                             img {
-                                                width: 3.2vw;
-                                                height: 6.5vh;
-                                                margin-left: .1vw;
+                                                width: 3vw;
+                                                height: 6vh;
                                                 margin-top: .3vh;
                                             }
                                         }
@@ -336,6 +335,7 @@ $iconblock: #023430;
                                                 width: 3.3vw;
                                                 height: 7.5vh;
                                                 margin-bottom: 1.8vh;
+                                                margin-left: .2vw;
                                             }
                                         }
                                         #mongodb {
@@ -345,7 +345,7 @@ $iconblock: #023430;
                                             align-items: center;
                                             height: 100%;
                                             img {
-                                                width: 3.2vw;
+                                                width: 3.3vw;
                                                 height: 7vh;
                                             }
                                         }

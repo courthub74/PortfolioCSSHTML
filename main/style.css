@@ -240,7 +240,7 @@
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock {
   width: 30vw;
-  height: 11vh;
+  height: 10vh;
   background-color: #080E2F;
   border-radius: 50%;
 }
@@ -257,8 +257,8 @@
   height: 100%;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #django img {
-  width: 3vw;
-  height: 5vh;
+  width: 4vw;
+  height: 6vh;
   margin-right: 0.3vw;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #nodejs {
@@ -268,7 +268,7 @@
   height: 100%;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #nodejs img {
-  width: 3.2vw;
+  width: 3vw;
   height: 6.3vh;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #postgre {
@@ -278,9 +278,8 @@
   height: 100%;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #postgre img {
-  width: 3.2vw;
-  height: 6.5vh;
-  margin-left: 0.1vw;
+  width: 3vw;
+  height: 6vh;
   margin-top: 0.3vh;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #firebase {
@@ -293,6 +292,7 @@
   width: 3.3vw;
   height: 7.5vh;
   margin-bottom: 1.8vh;
+  margin-left: 0.2vw;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #mongodb {
   display: flex;
@@ -301,7 +301,7 @@
   height: 100%;
 }
 * body .container .skills .skillcontainer .skillicons .back .icons .iconblock #mongodb img {
-  width: 3.2vw;
+  width: 3.3vw;
   height: 7vh;
 }
 * body .about {
