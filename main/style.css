@@ -166,14 +166,13 @@
 }
 * body .container .skills .skillcontainer .skillicons .front .icons {
   display: flex;
-  gap: 20px;
-  transition: 1s;
+  gap: 8px;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock {
-  width: 6vw;
-  height: 9vh;
+  width: 30vw;
+  height: 10vh;
   background-color: #080E2F;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #html {
   display: flex;
@@ -183,7 +182,8 @@
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #html img {
   width: 3vw;
-  height: 6vh;
+  height: 7vh;
+  margin: 1vw;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #css {
   display: flex;
@@ -193,7 +193,8 @@
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #css img {
   width: 3vw;
-  height: 6vh;
+  height: 7vh;
+  margin: 1vw;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #js {
   display: flex;
@@ -202,8 +203,9 @@
   height: 100%;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #js img {
-  width: 4vw;
-  height: 8vh;
+  width: 3vw;
+  height: 6.5vh;
+  margin: 0 0.2vw 0.2vh 0;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #react {
   display: flex;
@@ -224,6 +226,7 @@
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #sass img {
   width: 2.9vw;
   height: 4.9vh;
+  margin-left: 0.2vw;
 }
 * body .container .skills .skillcontainer .skillicons .front .icons .iconblock #tailwind {
   display: flex;
