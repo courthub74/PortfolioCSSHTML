@@ -33,6 +33,10 @@ $iconblock: #023430;
                     .logo {
                         grid-column: 1;
                         grid-row: 1 / span 2;
+                        .center {
+                            animation-name: moveFromCenter;
+                            animation-duration: 2s;
+                        }
                         img {
                             width: 18vw;
                             height: 25vh;
@@ -47,6 +51,10 @@ $iconblock: #023430;
                             grid-column: 1;
                             grid-row: 3;
                             width: 40vw;
+                            .left {
+                                animation-name: moveInLeft;
+                                animation-duration: 2s;
+                            }
                             #header {
                                 font-size: 2.8vw;
                                 font-weight: bold;
@@ -60,6 +68,10 @@ $iconblock: #023430;
                     .navbar {
                         grid-column: 2;
                         height: 6vh;
+                        .right {
+                            animation-name: moveInRight;
+                            animation-duration: 2s;
+                        }
                         ul {
                             text-align: center;
                             a {
@@ -135,7 +147,10 @@ $iconblock: #023430;
                     .photo {
                         grid-column: 2;
                         grid-row: 2 / span 3;
-                        
+                        .center {
+                            animation-name: moveFromCenter;
+                            animation-duration: 2s;
+                        }
                         img {
                             height: 70vh;
                             width: 35vw;
@@ -558,7 +573,7 @@ $iconblock: #023430;
                     flex-direction: row;
                     // background-color:pink;
                     margin-right: 60vw;
-                    margin-top: 10vh;
+                    margin-top: 7vh;
                     .places {
                             display: flex;
                             flex-direction: column;
@@ -816,3 +831,62 @@ $iconblock: #023430;
             }
         }
     }
+
+/* Keyframes parts */
+/* move from left */
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+/* Keyframes parts */
+/* move from thin air */
+@keyframes moveFromCenter {
+    0% {
+        opacity: 0;
+        // translate on the x axis
+        transform: translateX(0px);
+    }
+    80% {
+
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* Keyframes parts */
+/* move from left */
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(-100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
