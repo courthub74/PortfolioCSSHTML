@@ -106,8 +106,7 @@ $iconblock: #023430;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        margin-top: 15vh;
-                        margin-left: .7vw;
+                        margin: 10vh 15vh 0 0;
                         // background-color: green;
                         .center {
                             animation-name: moveFromCenter;
@@ -164,7 +163,7 @@ $iconblock: #023430;
                             height: 70vh;
                             width: 35vw;
                             border-radius: 50%;
-                            margin-left: 7.8vw;
+                            // margin-left: 7.8vw;
                             margin-top: 5vh;
                             margin-bottom: 5vh;
                         }
@@ -189,17 +188,28 @@ $iconblock: #023430;
                     // background-color: rebeccapurple;
                     justify-content: space-between;
                     .skillsnavbar {
+                        .left {
+                            animation-name: moveInLeft;
+                            animation-duration: 2s;
+                        }
                         ul {
-                            background-color: lavender;
-                            
+                            // background-color: lavender;
+                            margin: 10vh 0 0 15vh;
                             li {
                                 display: inline;
-                                background-color: pink;
+                                padding-right: 2vw;
+                                // background-color: pink;
                                 a {
                                     text-decoration: none;
                                     color: white;
                                 }
                             }
+                        }
+                        #selected {
+                            background-color: white;
+                            color: $skillsteal;
+                            padding: .3vw;
+                            border-radius: 5px;
                         }
                     }
                     h1 {
