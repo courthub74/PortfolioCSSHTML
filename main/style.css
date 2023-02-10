@@ -168,8 +168,23 @@
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
 }
-* body .container .skills h1 {
-  text-align: right;
+* body .container .skills .skillstop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+* body .container .skills .skillstop .skillsnavbar ul {
+  background-color: lavender;
+}
+* body .container .skills .skillstop .skillsnavbar ul li {
+  display: inline;
+  background-color: pink;
+}
+* body .container .skills .skillstop .skillsnavbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+* body .container .skills .skillstop h1 {
   padding-right: 5vw;
   font-size: 5vw;
 }
@@ -489,7 +504,7 @@
 }
 * body .portfolio .portcontainer .appcontainer .apps #app3 {
   width: 70vw;
-  height: 20vw;
+  height: 41vh;
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   margin: 0 0 0 0;
@@ -698,7 +713,7 @@
   font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .name input {
-  width: 25vw;
+  width: 29vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
@@ -707,7 +722,7 @@
   font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .email input {
-  width: 25vw;
+  width: 29vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
@@ -719,28 +734,28 @@
   margin: 5vh 0 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #github {
-  margin: 0 1.5vw 0 0;
+  margin: 0 2.5vw 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #github img {
   width: 3.5vw;
   height: 7vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #linkedin {
-  margin: 0 1.3vw 0 0;
+  margin: 0 2.5vw 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #linkedin img {
   width: 4.5vw;
   height: 8.5vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #twitter {
-  margin: 0 0.8vw 0 -0.4vw;
+  margin: 0 1.5vw 0 -0.4vw;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #twitter img {
   width: 4.5vw;
   height: 8.5vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #instagram {
-  margin: 0 0.8vw 0 -0.01vw;
+  margin: 0 2vw 0 -0.01vw;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 5vw;
@@ -761,7 +776,7 @@
 }
 * body .contact .contactcontainer .messageandsubmitdiv .message input {
   width: 27vw;
-  height: 24vh;
+  height: 27vh;
   border: none;
   border-radius: 5px;
 }
