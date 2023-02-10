@@ -64,6 +64,9 @@
 }
 * body .container .header .grid-container .navbar ul {
   text-align: center;
+  padding-right: 2vw;
+  margin-top: 4vh;
+  width: 60vw;
 }
 * body .container .header .grid-container .navbar ul a {
   cursor: pointer;
@@ -72,11 +75,11 @@
 }
 * body .container .header .grid-container .navbar ul li {
   display: inline;
-  padding: 1.5vw;
+  padding: 1vw;
   list-style: none;
   color: white;
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 * body .container .header .grid-container .navbar ul #selected {
   background-color: white;
@@ -389,10 +392,11 @@
 * body .about {
   background-color: #0E4946;
   color: #FFFFFF;
-  height: 52vw;
+  height: 55vw;
 }
 * body .about .abouttop {
   display: flex;
+  justify-content: space-between;
 }
 * body .about .abouttop .aboutnavbar .top {
   -webkit-animation-name: moveInTop;
@@ -401,7 +405,7 @@
           animation-duration: 2s;
 }
 * body .about .abouttop .aboutnavbar ul {
-  margin: 10vh 0 0 40vw;
+  margin: 10vh 0 0 0vw;
 }
 * body .about .abouttop .aboutnavbar ul li {
   display: inline;
@@ -414,7 +418,7 @@
 }
 * body .about .abouttop .aboutnavbar #selected {
   background-color: white;
-  color: #146166;
+  color: #0E4946;
   padding: 0.3vw;
   border-radius: 5px;
 }
@@ -432,7 +436,7 @@
 * body .about .infoblock .info {
   text-align: left;
   padding-bottom: 15vw;
-  padding-top: 15vh;
+  padding-top: 20vh;
   padding-left: 20vw;
   width: 50%;
   font-size: 1.1vw;
@@ -447,7 +451,7 @@
 * body .about .infoblock .coding {
   width: 30vw;
   height: 40vh;
-  margin: 0 0 15vh 7vw;
+  margin: 3vh 0 15vh 6vw;
 }
 * body .about .infoblock .coding .center {
   -webkit-animation-name: moveFromCenter;
@@ -661,8 +665,39 @@
 * body .experience {
   background-color: #0E4946;
   color: #FFFFFF;
-  height: 60vw;
-  padding-top: 1vh;
+  height: 130vh;
+  margin-top: 3.4vh;
+  width: 100vw;
+}
+* body .experience .experiencetop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+* body .experience .experiencetop .experiencenavbar .top {
+  -webkit-animation-name: moveInTop;
+          animation-name: moveInTop;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+* body .experience .experiencetop .experiencenavbar ul {
+  margin-top: 9vh;
+  margin-right: 4vw;
+}
+* body .experience .experiencetop .experiencenavbar ul li {
+  display: inline;
+  padding-right: 2vw;
+}
+* body .experience .experiencetop .experiencenavbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+* body .experience .experiencetop .experiencenavbar #selected {
+  background-color: white;
+  color: #146166;
+  padding: 0.3vw;
+  border-radius: 5px;
 }
 * body .experience h1 {
   font-size: 5vw;

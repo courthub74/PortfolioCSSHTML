@@ -78,6 +78,10 @@ $iconblock: #023430;
                         }
                         ul {
                             text-align: center;
+                            padding-right: 2vw;
+                            margin-top: 4vh;
+                            width: 60vw;
+                            // background-color: green;
                             a {
                                 cursor: pointer;
                                 color: white;
@@ -85,11 +89,11 @@ $iconblock: #023430;
                             }
                             li {
                                 display: inline;
-                                padding: 1.5vw;
+                                padding: 1vw;
                                 list-style: none;
                                 color: white;
                                 font-weight: 600;
-                                font-size: 1.5vw;
+                                font-size: 1.3vw;
                             }
                             #selected {
                                 background-color: white;
@@ -436,9 +440,10 @@ $iconblock: #023430;
                 // 3rd Block
                 background-color: $aboutgreen;
                 color: $skillswhite;
-                height: 52vw;
+                height: 55vw;
                 .abouttop {
                     display: flex;
+                    justify-content: space-between;
                     .aboutnavbar {
                         .top {
                             animation-name: moveInTop;
@@ -446,7 +451,8 @@ $iconblock: #023430;
                         }
                         ul {
                             // background-color: lavender;
-                            margin: 10vh 0 0 40vw;
+                            margin: 10vh 0 0 0vw;
+                            // width: 60vw;
                             li {
                                 display: inline;
                                 padding-right: 2vw;
@@ -460,7 +466,7 @@ $iconblock: #023430;
                         }
                         #selected {
                             background-color: white;
-                            color: $skillsteal;
+                            color: $aboutgreen;
                             padding: .3vw;
                             border-radius: 5px;
                         }
@@ -481,7 +487,7 @@ $iconblock: #023430;
                         // background-color: pink;
                         text-align: left;
                         padding-bottom: 15vw;
-                        padding-top: 15vh;
+                        padding-top: 20vh;
                         padding-left: 20vw;
                         width: 50%;
                         font-size: 1.1vw;
@@ -495,7 +501,7 @@ $iconblock: #023430;
                         // background-color: $mainblue;
                         width: 30vw;
                         height: 40vh;
-                        margin: 0 0 15vh 7+vw;
+                        margin: 3vh 0 15vh 6vw;
                         .center {
                             animation-name: moveFromCenter;
                             animation-duration: 2s;
@@ -650,6 +656,7 @@ $iconblock: #023430;
                     }
                 }
             }
+            // BLOG PAGE
             .blog {
                 // 5th Block
                 background-color: $skillsteal;
@@ -718,13 +725,48 @@ $iconblock: #023430;
                     }
                 }
             }
+
+
             // EXPERIENCE PAGE
             .experience {
                 // 6th Block
                 background-color: $aboutgreen;
                 color: $skillswhite;
-                height: 60vw;
-                padding-top: 1vh;
+                height: 130vh;
+                margin-top: 3.4vh;
+                width: 100vw;
+                .experiencetop {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .experiencenavbar {
+                        .top {
+                            animation-name: moveInTop;
+                            animation-duration: 2s;
+                        }
+                        ul {
+                            // background-color: lavender;
+                            margin-top: 9vh;
+                            margin-right: 4vw;
+                            li {
+                                display: inline;
+                                padding-right: 2vw;
+                                // background-color: pink;
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+                        #selected {
+                            background-color: white;
+                            color: $skillsteal;
+                            padding: .3vw;
+                            border-radius: 5px;
+                        }
+                    }
+                }
                 h1 {
                     font-size: 5vw;
                     margin: 2vh 0 0 3vw;
