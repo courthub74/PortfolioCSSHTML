@@ -600,12 +600,8 @@ $iconblock: #023430;
                                 border: 1px solid $skillswhite;
                                 border-radius: 5px;
                                 margin: 0 6vw 0 0;
-                                padding: 4vw 0 0 0;
-                                img {
-                                    width: 9vw;
-                                    height: 7vw;
-                                    // padding-bottom: 2vw;
-                                }
+                                padding: 2vw 0 0 0;
+                                
                                 a {
                                     // padding-top: 2vw;
                                     font-size: 1.5vw;
@@ -616,8 +612,13 @@ $iconblock: #023430;
                                     flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    img {
+                                        width: 8vw;
+                                        height: 10vw;
+                                        margin-top: 2vh;
+                                    }
                                     p {
-                                        padding-top: 1vw;
+                                        margin-top: 1vh;
                                     }
                                 }
                             }

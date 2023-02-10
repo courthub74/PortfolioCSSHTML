@@ -549,11 +549,7 @@
   border: 1px solid #FFFFFF;
   border-radius: 5px;
   margin: 0 6vw 0 0;
-  padding: 4vw 0 0 0;
-}
-* body .portfolio .portcontainer .appcontainer .apps #app2 img {
-  width: 9vw;
-  height: 7vw;
+  padding: 2vw 0 0 0;
 }
 * body .portfolio .portcontainer .appcontainer .apps #app2 a {
   font-size: 1.5vw;
@@ -565,8 +561,13 @@
   justify-content: center;
   align-items: center;
 }
+* body .portfolio .portcontainer .appcontainer .apps #app2 a img {
+  width: 8vw;
+  height: 10vw;
+  margin-top: 2vh;
+}
 * body .portfolio .portcontainer .appcontainer .apps #app2 a p {
-  padding-top: 1vw;
+  margin-top: 1vh;
 }
 * body .portfolio .portcontainer .appcontainer .apps #app3 {
   width: 70vw;
