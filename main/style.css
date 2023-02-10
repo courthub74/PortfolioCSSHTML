@@ -584,11 +584,11 @@
   height: 6vw;
 }
 * body .experience .expcontainer .places .courdevs h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .places .courdevs p {
   margin-top: -0.9vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .experience .expcontainer .places .r1rcm {
   width: 20vw;
@@ -602,11 +602,11 @@
   height: 3vw;
 }
 * body .experience .expcontainer .places .r1rcm h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .places .r1rcm p {
   margin-top: -0.9vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .experience .expcontainer .places .slea {
   width: 20vw;
@@ -619,11 +619,11 @@
   height: 5vw;
 }
 * body .experience .expcontainer .places .slea h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .places .slea p {
   margin-top: -0.9vw;
-  font-size: 1.7vh;
+  font-size: 2vh;
 }
 * body .experience .expcontainer .descriptions {
   margin-top: -4vh;
@@ -644,7 +644,6 @@
 * body .experience .expcontainer .descriptions .descriptionlist ul {
   list-style: none;
   margin-top: -0.8vw;
-  font-size: 1vw;
 }
 * body .experience .expcontainer .descriptions .descriptionlist ul li {
   padding: 0.2vw;
@@ -653,32 +652,32 @@
   margin-top: 5vh;
 }
 * body .experience .expcontainer .descriptions .courdevelops h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .descriptions .courdevelops .descriptionlist ul li {
-  font-size: 1.8vh;
+  font-size: 2vh;
 }
 * body .experience .expcontainer .descriptions .r1description {
   margin-top: 7vh;
 }
 * body .experience .expcontainer .descriptions .r1description h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .descriptions .r1description .descriptionlist ul li {
-  font-size: 1.8vh;
+  font-size: 2vh;
 }
 * body .experience .expcontainer .descriptions .sleadescription {
   margin-top: 7vh;
 }
 * body .experience .expcontainer .descriptions .sleadescription h3 {
-  font-size: 2vh;
+  font-size: 2.6vh;
 }
 * body .experience .expcontainer .descriptions .sleadescription .descriptionlist ul li {
   font-size: 1.8vh;
 }
 * body .experience .expcontainer .vl2 {
   border-left: 2px solid #FFFFFF;
-  height: 65vh;
+  height: 73vh;
   margin: 0 5vw 2vh 5vw;
 }
 * body .contact {
@@ -699,7 +698,7 @@
   font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .name input {
-  width: 30vw;
+  width: 25vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
@@ -708,7 +707,7 @@
   font-size: 1.5vw;
 }
 * body .contact .contactcontainer .nameemaildiv .email input {
-  width: 30vw;
+  width: 25vw;
   height: 6vh;
   border: none;
   border-radius: 5px;
@@ -720,28 +719,28 @@
   margin: 5vh 0 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #github {
-  margin: 0 2.5vw 0 0;
+  margin: 0 1.5vw 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #github img {
   width: 3.5vw;
   height: 7vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #linkedin {
-  margin: 0 2.5vw 0 0;
+  margin: 0 1.3vw 0 0;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #linkedin img {
   width: 4.5vw;
   height: 8.5vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #twitter {
-  margin: 0 2vw 0 -0.4vw;
+  margin: 0 0.8vw 0 -0.4vw;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #twitter img {
   width: 4.5vw;
   height: 8.5vh;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #instagram {
-  margin: 0 2vw 0 -0.01vw;
+  margin: 0 0.8vw 0 -0.01vw;
 }
 * body .contact .contactcontainer .nameemaildiv .socials #instagram img {
   width: 5vw;
@@ -761,8 +760,8 @@
   font-size: 1.5vw;
 }
 * body .contact .contactcontainer .messageandsubmitdiv .message input {
-  width: 30vw;
-  height: 26vh;
+  width: 27vw;
+  height: 24vh;
   border: none;
   border-radius: 5px;
 }
