@@ -401,7 +401,7 @@
           animation-duration: 2s;
 }
 * body .about .abouttop .aboutnavbar ul {
-  margin: 10vh 0 0 35vw;
+  margin: 10vh 0 0 40vw;
 }
 * body .about .abouttop .aboutnavbar ul li {
   display: inline;
@@ -433,8 +433,8 @@
   text-align: left;
   padding-bottom: 15vw;
   padding-top: 15vh;
-  padding-left: 7vw;
-  width: 40%;
+  padding-left: 20vw;
+  width: 50%;
   font-size: 1.1vw;
   line-height: 2.5;
 }
@@ -447,7 +447,7 @@
 * body .about .infoblock .coding {
   width: 30vw;
   height: 40vh;
-  margin-bottom: 15vh;
+  margin: 0 0 15vh 7vw;
 }
 * body .about .infoblock .coding .center {
   -webkit-animation-name: moveFromCenter;
@@ -465,7 +465,35 @@
   color: #FFFFFF;
   height: 53vw;
 }
-* body .portfolio h1 {
+* body .portfolio .portfoliotop {
+  display: flex;
+  justify-content: space-between;
+}
+* body .portfolio .portfoliotop .portfolionavbar .top {
+  -webkit-animation-name: moveInTop;
+          animation-name: moveInTop;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+* body .portfolio .portfoliotop .portfolionavbar ul {
+  margin: 10vh 0 0 5vh;
+}
+* body .portfolio .portfoliotop .portfolionavbar ul li {
+  display: inline;
+  padding-right: 2vw;
+}
+* body .portfolio .portfoliotop .portfolionavbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+* body .portfolio .portfoliotop .portfolionavbar #selected {
+  background-color: white;
+  color: #080E2F;
+  padding: 0.3vw;
+  border-radius: 5px;
+}
+* body .portfolio .portfoliotop h1 {
   font-size: 5vw;
   text-align: right;
   margin: 0 2vw 0 0;

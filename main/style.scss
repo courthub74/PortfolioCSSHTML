@@ -446,7 +446,7 @@ $iconblock: #023430;
                         }
                         ul {
                             // background-color: lavender;
-                            margin: 10vh 0 0 35vw;
+                            margin: 10vh 0 0 40vw;
                             li {
                                 display: inline;
                                 padding-right: 2vw;
@@ -482,8 +482,8 @@ $iconblock: #023430;
                         text-align: left;
                         padding-bottom: 15vw;
                         padding-top: 15vh;
-                        padding-left: 7vw;
-                        width: 40%;
+                        padding-left: 20vw;
+                        width: 50%;
                         font-size: 1.1vw;
                         line-height: 2.5;
                         .left {
@@ -495,7 +495,7 @@ $iconblock: #023430;
                         // background-color: $mainblue;
                         width: 30vw;
                         height: 40vh;
-                        margin-bottom: 15vh;
+                        margin: 0 0 15vh 7+vw;
                         .center {
                             animation-name: moveFromCenter;
                             animation-duration: 2s;
@@ -513,11 +513,42 @@ $iconblock: #023430;
                 background-color: $mainblue;
                 color: $skillswhite;
                 height: 53vw;
-                h1 {
-                    font-size: 5vw;
-                    text-align: right;
-                    margin: 0 2vw 0 0;
-                    padding: 3vw 0 0 0;
+                // padding: 0 0 0 25vh;
+                .portfoliotop {
+                    display: flex;
+                    justify-content: space-between;
+                    .portfolionavbar {
+                        .top {
+                            animation-name: moveInTop;
+                            animation-duration: 2s;
+                        }
+                        ul {
+                            // background-color: lavender;
+                            margin: 10vh 0 0 5vh;
+                            li {
+                                display: inline;
+                                padding-right: 2vw;
+                                // background-color: pink;
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+                        #selected {
+                            background-color: white;
+                            color: $mainblue;
+                            padding: .3vw;
+                            border-radius: 5px;
+                        }
+                    }
+                    h1 {
+                        font-size: 5vw;
+                        text-align: right;
+                        margin: 0 2vw 0 0;
+                        padding: 3vw 0 0 0;
+                    }
                 }
                 .portcontainer {
                     // background-color: pink;
