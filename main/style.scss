@@ -512,7 +512,7 @@ $iconblock: #023430;
                 // 4th Block
                 background-color: $mainblue;
                 color: $skillswhite;
-                height: 53vw;
+                height: 60vw;
                 // padding: 0 0 0 25vh;
                 .portfoliotop {
                     display: flex;
@@ -571,7 +571,7 @@ $iconblock: #023430;
                         .apps {
                             display: flex;
                             justify-content: center;
-                            padding: 5vw 0 10vw 0;
+                            padding: 5vw 0 20vh 0;
                             #app1 {
                                 width: 60vw;
                                 height: 20vw;
@@ -654,13 +654,48 @@ $iconblock: #023430;
                 background-color: $skillsteal;
                 color: white;
                 padding: 1vh 1vw 0 1vw;
-                h1 {
-                    font-size: 5vw;
-                    text-align: left;
+                height: 110vh;
+                .blogtop {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .blognavbar {
+                        display: inline;
+                        .top {
+                            animation-name: moveInTop;
+                            animation-duration: 2s;
+                        }
+                        ul {
+                            // background-color: lavender;
+                            margin-top: 9vh;
+                            margin-right: 4vw;
+                            li {
+                                display: inline;
+                                padding-right: 2vw;
+                                // background-color: pink;
+                                a {
+                                    text-decoration: none;
+                                    color: white;
+                                    font-weight: 800;
+                                }
+                            }
+                        }
+                        #selected {
+                            background-color: white;
+                            color: $skillsteal;
+                            padding: .3vw;
+                            border-radius: 5px;
+                        }
+                    }
+                    h1 {
+                        font-size: 5vw;
+                        text-align: left;
+                        margin-left: 5vw;
+                    }
                 }
                 .blogs {
                     display: flex;
-                    padding: 0 0 5vw 6vw;
+                    padding: 0 0 5vw 8vw;
                     .blogline {
                         padding-top: 2vw;
                         padding-left: 5vw;
